@@ -1,7 +1,8 @@
 '''
-Escribir un programa que pida al usuario una palabra y la muestre por pantalla 10 veces.
+Escribir un programa que pregunte al usuario su edad y muestre por pantalla todos los años que ha
+cumplido (desde 1 hasta su edad).
 '''
-var = input("ingrese una palabra: ")
+edad = input("ingrese sus edad: ")
 
-for i in range(10):
-    print (var)
+for i in range(edad):
+    print("Has cumplido " + str(i+1) + " años")
